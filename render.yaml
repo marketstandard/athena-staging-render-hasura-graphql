@@ -26,5 +26,5 @@ services:
 databases:
   - name: staging-db-athena
     postgresMajorVersion: 16
-    size: 10
+    diskSizeGB: 10
     region: oregon
